@@ -11,7 +11,7 @@ body{
 .content{
  width: 100%;
  grid-template-columns: repeat(5, 1fr);
- grid-template-rows: repeat(4, minmax(1fr , 25%));
+ grid-template-rows: repeat(10, minmax(1fr , 25%));
  grid-row-gap: 15px;
  margin: 0 auto;
  display: grid;
@@ -108,10 +108,10 @@ div.gallery:hover {
  border: 3px solid white;
 }
 div.gallery img {
- width: 80%;
- height: 55%;
+ width: 8vw;
+ height: 10vw;
  padding-bottom: 10px;
-border-radius: 10px;}
+ border-radius: 10px;}
 div.desc {
  border:none;
  /* padding: 10px; */

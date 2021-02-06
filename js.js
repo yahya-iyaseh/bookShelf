@@ -99,7 +99,7 @@ const affFun = e =>{
    
   let html = `  
       <div class="gallery">
-         <img src="${img}" width="150px" class="imges" >
+         <img src="${img}"  class="imges" >
          <div class="desc">
            <h3>${name}</h3>
            <br>
@@ -137,7 +137,8 @@ form.addEventListener('submit', e =>{
  let image = f.imglink.value;
  // check if the user add img url or not if not we will add a default img
  if(!image){
-  image = 'img/default.jfif';
+  image = 'img/default.jpeg';
+   
  }
  // add the value from add form to books array 
   books.push( {
