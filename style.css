@@ -1,0 +1,126 @@
+<<<<<<< Updated upstream
+=======
+body{
+ color: #fff;
+ font-family: 'Nunito Semibold';
+ text-align: center;
+ background-image: url("img/background.jpg");
+ background-size: cover;
+ max-width: 1000px;
+ margin: 0 auto;
+}
+.content{
+ width: 100%;
+ grid-template-columns: repeat(5, 1fr);
+ grid-template-rows: repeat(4, minmax(1fr , 25%));
+ grid-row-gap: 15px;
+ margin: 0 auto;
+ display: grid;
+}
+.content div{
+ border: 1px solid white;
+ border-radius: 10px;
+}
+.add{
+ margin-top:20px;
+ margin-bottom: 20px;
+}
+button{
+ margin: 5px;
+ padding: 15px;
+ font-size: 3vw;
+ border-radius: 30px;
+ cursor: pointer;
+}
+button:hover{
+ border: 2px white;
+ box-shadow:  0px 0px 15px white;
+}
+.d-none{
+ display: none;
+}
+.form{
+ width: 400px;
+ height: 350px;
+ margin: 100px auto;
+ color: black;
+ padding-top: 2%;
+ border-radius: 15px;
+ background-color: rgb(197, 176, 149);
+}
+input[type=text] {
+ width: 70%;
+ padding: 12px 20px;
+ margin: 8px auto;
+ display: inline-block;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+}
+input[type=text]:focus  {
+border: 2px white;
+box-shadow:  0px 0px 15px white;
+outline: 1px solid white;
+border-radius: 4px;
+}
+input[type=submit] {
+ width: 40%;
+ background-color: #703a0d;
+ color: white;
+ padding: 14px 20px;
+ margin: 8px auto;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+input[type=submit]:hover {
+ background-color: white;
+ color: black;
+ box-shadow: 0px 0px 15px black;
+}
+#back{
+cursor: pointer;
+margin-top:0;
+border-radius: 50%;
+}
+#back:hover{
+ box-shadow: 0px 0px 15px black;
+ }
+i{
+ cursor: pointer;
+ display: block;
+ margin-top: 2vw ;
+ box-shadow: 0px 0px 5px white;
+ padding: 2px;
+ border-radius: 50%;
+}
+h3{
+ font-size: 1.2vw;
+ height: 0px;
+}
+div.gallery {
+ margin: 5px;
+ border: 1px solid #ccc;
+ float: left;
+ width: 90%;
+ background-color: black;
+}
+div.gallery:hover {
+ border: 3px solid white;
+}
+div.gallery img {
+ width: 80%;
+ height: 55%;
+ padding-bottom: 10px;
+border-radius: 10px;}
+div.desc {
+ border:none;
+ /* padding: 10px; */
+ margin-top: -1vw;
+ text-align: center;
+}
+.delete{
+  /* margin: 5px;  */
+  margin-bottom: 0; 
+} 
+>>>>>>> Stashed changes
