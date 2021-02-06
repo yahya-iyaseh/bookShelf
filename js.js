@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 const main = document.querySelector('.content');
 const form = document.querySelector('.form');
 const f = form.querySelector('form');
@@ -174,4 +173,4 @@ back.addEventListener('click', e =>{
 });
 
 
->>>>>>> Stashed changes
+
